@@ -1,0 +1,144 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  color: #73787e;
+  background-color: #f1f0ee;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/* Header Part*/
+#navbar {
+  margin-top: 0;
+  margin-left: -6%;
+  margin-right: -6%;
+  background-color: #0c3542;
+}
+#navbar li {
+  display: inline-block;
+  padding: 0.5% 2.5%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#navbar li a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #0095da;
+  padding: 12px 25px;
+  line-height: 50px;
+  border-radius: 30px;
+}
+#navbar li a:hover {
+  font-size: 22px;
+  background: white;
+  transition: 0.8s;
+}
+#banner img {
+  margin-top: -1%;
+  max-width: 100%;
+}
+/*Vacation Box*/
+#leftbox {
+  float: left;
+  background: rgb(255, 254, 254);
+  width: 33%;
+  height: 280px;
+  text-align: center;
+  border-radius: 10px;
+}
+#middlebox {
+  float: left;
+  background: rgb(255, 255, 255);
+  width: 33%;
+  height: 280px;
+  margin-left: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+#rightbox {
+  float: right;
+  background: rgb(255, 255, 255);
+  width: 33%;
+  height: 280px;
+  text-align: center;
+  border-radius: 10px;
+}
+#leftbox:hover,
+#middlebox:hover,
+#rightbox:hover {
+  background-color: #f1f1ee;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shto hije për efekt lëvizjeje */
+}
+.rating {
+  padding-left: 15px;
+  margin-top: 0px;
+}
+p {
+  margin: 30px;
+}
+/*container*/
+.page {
+  height: 440px;
+  padding-left: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#content {
+  float: right;
+  width: 70%;
+  margin-right: 10px;
+}
+#logo {
+  float: left;
+  width: 18%;
+}
+#logo img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 55px;
+  width: 60%;
+}
+#members {
+  margin-top: 1%;
+  width: 50%;
+}
+#members th,
+#members td {
+  font-size: 1em;
+  border: 1px solid #8f8e8e;
+  text-align: center;
+  padding: 3px 6px;
+}
+#members th {
+  font-size: 1.1em;
+  background-color: #149ddd;
+  color: #fff;
+}
+#members tr.alt td {
+  background-color: #e3e5e5;
+}
+/*Covid */
+.covid img {
+  height: 120px;
+  margin-top: 10%;
+}
+h2 {
+  font-style: italic;
+  color: rgb(221, 40, 40);
+  margin-left: 10px;
+}
+/**======= Footer Part=======*/
+#footer {
+  background-color: #0c3542;
+  height: 70px;
+}
+#footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
